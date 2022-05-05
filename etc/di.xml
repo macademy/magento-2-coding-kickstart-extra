@@ -3,4 +3,7 @@
     <type name="Macademy\Blog\Observer\LogPostDetailView">
         <plugin name="macademy_blogextra_add_data_to_post_detail_observer" type="Macademy\BlogExtra\Plugin\AddDataToPostDetailObserver"/>
     </type>
+    <type name="Macademy\Blog\Controller\Post\Detail">
+        <plugin name="macademy_blogextra_alternate_post_detail_template" type="Macademy\BlogExtra\Plugin\AlternatePostDetailTemplate"/>
+    </type>
 </config>
